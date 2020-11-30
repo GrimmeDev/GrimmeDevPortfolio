@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Contact(props) {
   return (
@@ -16,13 +16,12 @@ function Contact(props) {
         torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
         Etiam vel condimentum magna, quis tempor nulla.
       </p>
-      <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
+      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
         Learn More
       </Link>{" "}
       <Link to="/contact" role="button" className="btn btn-link">
         Learn Less
-      </Link>
-      {/* <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
+      </Link> */}
     </div>
   );
 }

@@ -9,10 +9,8 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
-      {/* <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
-        </Link>
+      <li className="nav-item">
+          <h4>GrimmeDev</h4>
       </li>
       <li className="nav-item">
         <Link
@@ -24,10 +22,10 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+          to="/portfolio"
+          className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
@@ -38,14 +36,6 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
-      </li> */}
     </ul>
   );
 }

@@ -8,7 +8,7 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container-fluid">
         <NavTabs />
         <Route exact path="/" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
