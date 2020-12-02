@@ -10,7 +10,7 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-          <h4>GrimmeDev</h4>
+        <h5 className="navName">GrimmeDev</h5>
       </li>
       <li className="nav-item">
         <Link

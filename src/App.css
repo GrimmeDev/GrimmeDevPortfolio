@@ -1,5 +1,64 @@
+*{
+  box-sizing:border-box;
+  /* background-color: #646464; */
+  padding:0;
+  margin: 0;
+}
+
+body{
+  /* background-color: #646464; */
+  background: #333;
+}
+
+#root{
+  background-color: #646464;
+  /* background: #333; */
+}
+
+header{
+  background: #333;
+  color: #eee;
+  padding: 20px;
+}
+
+.nav-tabs{
+  background-color: #333;
+  color: #eee;
+}
+
+/* .nav-item{
+  background-color: #646464;
+} */
+
+/* .portPage{
+  color:#eee;
+} */
+
+.aboutMe{
+  background-color: #646464;
+}
+
+#aboutMeList li{
+  font-weight: lighter;
+}
+
+.navName{
+  padding-top: 7px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.custBGC-2{
+  border-color: #646464;
+  border-style: solid;
+  border-width: 3px;
+}
+
 .card{
-  max-width: 18em;
+  /* background-color: #333; */
+  width: 18em;
+  padding: 5px;
+  margin: 5px;
 }
 
 .custImgStyle{

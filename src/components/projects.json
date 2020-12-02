@@ -2,44 +2,37 @@
     "projects": [
         {
             "name": "Fasma",
-            "image": "https://media.moddb.com/cache/images/downloads/1/176/175556/crop_120x90/logo.png",
-            "repo:": "https://www.moddb.com/mods/fasma",
+            "repo": "https://www.moddb.com/mods/fasma",
             "desc": "Fasma was original started back in 2013 with the idea being a precurser to the Portal Gun from Valve's Portal series. The concept was a tool that shot energized marbles, each type of energy would change the effect to be either no gravity, electrifying, or a gravity explosion. For the original concept I was the 3D artist who designed the look of the Marble Tool. For the second version of the project which started in 2016 I was the Technical Director, in charge of making sure everyone on the project had access to the shared repository. I wrote technical documents detailing how to work with using the Hammer Game Engine, how to use Tortoise SVN with our repository, how to work with the in-engine Physics to create different and unique puzzles. I also assisted the other Project Leads in using the Scrum Method for task tracking as well as calculating burn down charts for the end of every sprint as well as during Sprint Reviews and Retrospectives."
         },
         {
             "name": "Project 1 - BreakAway",
-            "image": "src/Assets/homepageExample.png",
-            "repo:": "https://github.com/GrimmeDev/BreakAway",
+            "repo": "https://github.com/GrimmeDev/BreakAway",
             "desc": "This was my first major project working in a group with three other people in an effort to create a web-based application. We used TicketMaster API and the Google Maps API to generate a list of results based on a user selected 'feeling', or mood. If they were feeling active, it would pull up a list of parks nearby them, if they were wanting entertainment it would pull up a list of events happening nearby them in the upcoming days so they could see a show or performance. If they were wanting to be wined and dined, it would pull up a list of restaurants nearby them. Primarily this was achieved through the Google API of GeoCoding and a Places API internal to google."
         },
         {
             "name": "Project 2 - Leftover Wizard",
-            "image": "src/Assets/lwSignup.png",
-            "repo:": "https://github.com/GrimmeDev/LeftoverWizard",
+            "repo": "https://github.com/GrimmeDev/LeftoverWizard",
             "desc": "This was my second major project working in a group with four other people in an effort to create a heroku deployed web application. We used Spoonacular API and Sequelize to handle the routing and API calls. You can search for any number of ingredients and the API will grab the top 5 ranked recipes and allow you to read the instructions. It will also give you the source URL link so you can view the recipe on the webpage that hosts it."
         },
         {
             "name": "Project 3 - CyberSafe",
-            "image": "",
-            "repo:": "",
+            "repo": "",
             "desc": ""
         },
         {
             "name": "Password Generator",
-            "image": "src/Assets/passGenerator.png",
-            "repo:": "https://github.com/GrimmeDev/FSB-PasswordGenerator",
+            "repo": "https://github.com/GrimmeDev/FSB-PasswordGenerator",
             "desc": "While originally this was a program to make during my Full Stack Flex Bootcamp at UT Austin, I've linked this in as an example of taking in user input and adjustment of array objects to create a singular string based on the user inputs."
         },
         {
             "name": "Weather Dashboard",
-            "image": "src/Assets/weatherDash.png",
-            "repo:": "https://github.com/GrimmeDev/FSB-WeatherDash",
+            "repo": "https://github.com/GrimmeDev/FSB-WeatherDash",
             "desc": "This was my my first project where I predominately used JQuery to add functionality to the main page. It takes in a city that the user gives and then displays current weather, including a color coded UV Index, and then also returns a 5 day forecast."
         },
         {
             "name": "Employee Summary",
-            "image": "src/Assets/employeeOutput.png",
-            "repo:": "https://github.com/GrimmeDev/FSB-WeatherDash",
+            "repo": "https://github.com/GrimmeDev/FSB-WeatherDash",
             "desc": "This was my first proper CLI application while going through the Full-Stack Flex Bootcamp at UT Austin. It is inqurier powered and is used only through a CLI, or Command Line Interface. It takes in answers from the user in the form of inquirer prompts and stores the information in an array. Once the user has completed the prompts, which loop until the user has stated they are finished, it will then generate an HTML page viewable online and display the information the User entered."
         }
     ]
