@@ -8,8 +8,8 @@ function PortCard(props) {
     // console.log('desc==>>', desc)
     // console.log(__dirname);
     return (
-        <div className="col">
-            <div className="card custBGC-2">
+        <div className="col-lg-3 col-md-4 col-sm-6 mx-auto d-block">
+            <div className="card custBGC-2 text-center">
                 <img className="card-img-top custImgStyle" src={image} alt={name} />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

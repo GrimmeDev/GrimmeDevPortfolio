@@ -1,5 +1,5 @@
 import React from "react";
-import PortCards from "./PortCards";
+import PortCards from "./portCards";
 import { projects } from "../projects.json";
 import fasmalogo from "../../Assets/fasmalogo.png"
 import homepageExample from "../../Assets/homepageExample.png"
@@ -18,8 +18,8 @@ import employeeOutput from "../../Assets/employeeOutput.png"
 function Portfolio() {
   return (
     <div className="portPage">
-      <h1>Portfolio Page</h1>
-      <div className="row">
+      {/* <h1>Portfolio Page</h1> */}
+      <div className="row no-gutters">
         <PortCards name={projects[0].name} image={fasmalogo}
           repo={projects[0].repo} desc={projects[0].desc} />
         <PortCards name={projects[1].name} image={homepageExample}
