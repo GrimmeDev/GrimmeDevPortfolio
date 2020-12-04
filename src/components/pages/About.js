@@ -4,11 +4,6 @@ import headshot from "../../Assets/headshot.jpg"
 function About() {
   return (
     <div className="aboutMe">
-      <header class="page-header">
-        <h1>
-          GrimmeDev<small> - Robert Grimes</small>
-        </h1>
-      </header>
       <div className="row">
         <div className="col-lg-3">
           <div className="box">
